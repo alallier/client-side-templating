@@ -1,0 +1,14 @@
+{
+  "name": "client-side-templating",
+  "description": "",
+  "author": "",
+  "version": "0.1.0",
+  "dependencies": {
+    "brfs": "^1.4.3",
+    "browserify": "14.4.0"
+  },
+  "private": true,
+  "scripts": {
+    "bundle": "browserify -t brfs main.js > bundle.js"
+  }
+}
